@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { connect } from "react-redux";
 import { getQuote } from "../actions";
+import "./Quote.css";
 
 const Quote = ({ getQuote, quote, isFetching, error }) => {
   useEffect(() => {
@@ -14,8 +15,11 @@ const Quote = ({ getQuote, quote, isFetching, error }) => {
 
   return (
     <>
-      <h2>Dad says: {quote}</h2>
-      <button onClick={getQuote}>Get new joke</button>
+    <div classname="tweet">
+      <h2>ye: {quote}</h2>
+      <button onClick={getQuote}>get blessed</button>
+    </div>
+      
     </>
   );
 };

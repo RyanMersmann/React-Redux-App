@@ -6,7 +6,7 @@ import {
   } from "../actions";
   
   const initialState = {
-    title: "Dad Jokes!",
+    title: "Kanye Tweets",
     editing: false,
     loading: false,
     quote: null,
