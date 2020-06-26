@@ -5,13 +5,14 @@ body {
   padding: 0;
   margin: 0;
   background-image: linear-gradient(#fff, #c0deed);
-  color: black;
+  color: #00aced;
 }
 
 .App {
   font-family: sans-serif;
   text-align: center;
   padding: 36px;
+  margin: 0 30% 0 30%;
 }
 
 i {

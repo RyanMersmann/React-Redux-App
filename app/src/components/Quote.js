@@ -16,10 +16,10 @@ const Quote = ({ getQuote, quote, isFetching, error }) => {
   return (
     <>
     <div classname="tweet">
+
       <h2>ye: {quote}</h2>
       <button onClick={getQuote}>get blessed</button>
     </div>
-      
     </>
   );
 };
