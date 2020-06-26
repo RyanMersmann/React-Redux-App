@@ -4,14 +4,15 @@ body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background-image: linear-gradient(#e383b9, #5f65e9);
-  color: white;
+  background-image: linear-gradient(#fff, #c0deed);
+  color: #00aced;
 }
 
 .App {
   font-family: sans-serif;
   text-align: center;
   padding: 36px;
+  margin: 0 30% 0 30%;
 }
 
 i {
@@ -22,14 +23,14 @@ input {
   padding: 6px;
   background: none;
   border: none;
-  color: white;
-  border-bottom: 1px solid white;
+  color: #00aced;
+  border-bottom: 1px solid #00aced;
   margin-top: 0;
   margin-right: 8px;
 }
 
 input::placeholder {
-  color: #4147ad;
+  color: #00aced;
 }
 
 .title-input {
@@ -47,14 +48,15 @@ h1 {
 button {
   padding: 6px 8px;
   font-size: 16px;
-  background: none;
-  color: white;
-  border: 1px solid white;
+  background: white;
+  color: #00aced;
+  border: 1px solid #00aced;
   border-radius: 4px;
 }
 
 button:hover {
-  background-color: #ffffff22;
+  background-color: #00aced;
+  color: white;
 }
 
 button:focus {
@@ -83,3 +85,4 @@ h4 {
   right: 12px;
   top: 9px;
 }
+
